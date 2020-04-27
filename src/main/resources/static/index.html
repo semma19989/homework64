@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 63.</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body class="body">
+<div class="container">
+    <section class="d-flex mx-auto">
+        <div class="my-5 mx-auto">
+            <form id="task-form">
+                <div class="input-group mb-2">
+                    <input type="text" name="task-name" class="form-control" placeholder="task name" onfocus="this.value=''" autofocus>
+                    <div class="input-group-append">
+                        <button class="btn bg-danger text-light" type="submit">add</button>
+                    </div>
+                </div>
+            </form>
+            <li class="list-group-item bg-danger border-light rounded text-light text-center active">New tasks </li>
+            <ul id="tasks" class="list-group tasks" style="user-select: none">
+                <li class="list-group-item bg-success border-light rounded text-light text-center active">Finished tasks </li>
+            </ul>
+        </div>
+    </section>
+</div>
+</body>
+</html>
+
+<script src="js/javascript.js"></script>
+
